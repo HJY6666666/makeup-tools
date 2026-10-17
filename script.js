@@ -1,0 +1,8 @@
+const menu = document.querySelector('.menu');
+const mobileNav = document.querySelector('#mobile-nav');
+menu.addEventListener('click', () => {const open = menu.getAttribute('aria-expanded') !== 'true'; menu.setAttribute('aria-expanded', String(open));menu.setAttribute('aria-label',open?'Close navigation':'Open navigation'); mobileNav.hidden = !open;});
+mobileNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {mobileNav.hidden = true;menu.setAttribute('aria-expanded','false');menu.setAttribute('aria-label','Open navigation');}));
+document.querySelectorAll('[data-filter]').forEach(button => button.addEventListener('click', () => {document.querySelectorAll('[data-filter]').forEach(b=>{b.classList.toggle('active',b===button);b.setAttribute('aria-pressed',String(b===button));}); document.querySelectorAll('.product').forEach(card=>card.hidden=button.dataset.filter!=='all'&&card.dataset.category!==button.dataset.filter);}));
+document.querySelectorAll('[data-product]').forEach(a => a.addEventListener('click',()=>{document.querySelector('#product-select').value=a.dataset.product;}));
+document.querySelector('#inquiry-form').addEventListener('submit', event => {event.preventDefault();const data=new FormData(event.currentTarget);const text=['Hello MAKEUP TOOLS, I would like to discuss a beauty product inquiry.','Name: '+data.get('name'),'Company / brand: '+(data.get('company')||'Not specified'),'Interested in: '+data.get('product'),'Destination: '+data.get('country'),'Brief: '+data.get('brief')].join('\n');window.open('https://wa.me/8615079210251?text='+encodeURIComponent(text),'_blank','noopener,noreferrer');});
+document.querySelector('#year').textContent=new Date().getFullYear();
