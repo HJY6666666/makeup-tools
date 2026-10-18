@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 128" role="img" aria-labelledby="title desc">
+  <title id="title">MAKEUP TOOLS logo</title>
+  <desc id="desc">MAKEUP TOOLS wordmark with a monogram inspired by a lash and the letter M.</desc>
+  <rect width="128" height="128" rx="34" fill="#322821"/>
+  <path d="M30 39c9.5 9 21 13.5 34 13.5S88.5 48 98 39" fill="none" stroke="#ead8d2" stroke-linecap="round" stroke-width="5"/>
+  <path d="M39 91V57l25 25 25-25v34" fill="none" stroke="#fff9f0" stroke-linecap="round" stroke-linejoin="round" stroke-width="9"/>
+  <circle cx="64" cy="38" r="3.7" fill="#b98273"/>
+  <text x="160" y="62" fill="#322821" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" letter-spacing="-2">MAKEUP</text>
+  <text x="346" y="62" fill="#322821" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="300" letter-spacing="-2">TOOLS</text>
+  <text x="163" y="92" fill="#9b6559" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="5.1">BEAUTY, CONSIDERED.</text>
+</svg>

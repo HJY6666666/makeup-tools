@@ -1,0 +1,21 @@
+/* Brand mark: an M formed beneath a calm lash curve. */
+.logo {
+  position: relative;
+  display: inline-block;
+  min-height: 38px;
+  padding-left: 47px;
+}
+.logo::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 36px;
+  height: 36px;
+  transform: translateY(-48%);
+  background: url("logo-mark.svg") center / contain no-repeat;
+}
+@media (max-width: 760px) {
+  .logo { min-height: 34px; padding-left: 42px; }
+  .logo::before { width: 32px; height: 32px; }
+}
