@@ -6,10 +6,12 @@ MAKEUP TOOLS is an English-language product showcase and inquiry website for fal
 
 - WhatsApp: +86 150 7921 0251
 - Inquiry page: https://makeup-tools.com/#inquiry
+- International buyer guide: https://makeup-tools.com/international-beauty-tool-inquiries.html
 
 ## Core pages
 
 - https://makeup-tools.com/
+- https://makeup-tools.com/international-beauty-tool-inquiries.html
 - https://makeup-tools.com/blog/
 - https://makeup-tools.com/blog/how-to-choose-false-lashes-for-your-beauty-brand.html
 - https://makeup-tools.com/blog/makeup-brush-buying-guide.html
